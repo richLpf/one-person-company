@@ -1,0 +1,8 @@
+{
+  "name": "个人产品实验室",
+  "description": "一个简洁、可运行、适配手机和电脑的个人产品展示站，帮助把经验变成产品，把能力变成收入。",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
