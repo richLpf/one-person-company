@@ -17,9 +17,9 @@ export interface Profile {
 }
 
 export const profile: Profile = {
-  name: "林风",
+  name: "一人公司实践",
   role: "技术研发与产品实践者 / 独立开发者",
-  laboratoryName: "林风的个人产品实验室",
+  laboratoryName: "一人公司实践的个人产品实验室",
   slogan: "把经验变成产品，把能力变成收入。",
   subtitle: "这里记录我的创作、实践和成长，也展示我持续打磨的小说、课程、方法、工具与个人服务。",
   description: "我是一名技术研发和产品实践者，长期关注AI应用、邮件产品、个人成长、内容创作和能力产品化。",
@@ -37,7 +37,7 @@ export const profile: Profile = {
   contact: {
     wechatId: "linfeng_lab",
     email: "linfeng@productlab.net",
-    officialAccount: "林风的产品实验室",
+    officialAccount: "一人公司实践的产品实验室",
     githubUrl: "https://github.com/linfeng-dev",
     directions: [
       "PPT内容梳理与制作",

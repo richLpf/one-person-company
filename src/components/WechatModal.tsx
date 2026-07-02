@@ -65,7 +65,7 @@ export default function WechatModal({ isOpen, onClose, wechatId }: WechatModalPr
           <span className="inline-block px-3 py-1 bg-[#e8f5e9] text-[#2e7d32] text-xs font-mono rounded-full font-medium mb-2">
             微信扫一扫
           </span>
-          <h3 className="text-lg font-bold text-text-primary">添加林风的微信</h3>
+          <h3 className="text-lg font-bold text-text-primary">添加一人公司实践的微信</h3>
           <p className="text-xs text-text-secondary mt-1">
             探讨合作机会，获取最新项目进展或领取工具模板
           </p>

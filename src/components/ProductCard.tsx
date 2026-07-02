@@ -57,7 +57,7 @@ export default function ProductCard({ product, onWechatClick }: ProductCardProps
     }
 
     if (product.actionType === "email") {
-      const mailtoUrl = `mailto:linfeng@productlab.net?subject=咨询服务: ${product.title}&body=林风，你好：%0A%0A我对你的“${product.title}”服务很感兴趣。我的基本情况和面临的问题是：%0A%0A期待你的回复！`;
+      const mailtoUrl = `mailto:linfeng@productlab.net?subject=咨询服务: ${product.title}&body=一人公司实践，你好：%0A%0A我对你的“${product.title}”服务很感兴趣。我的基本情况和面临的问题是：%0A%0A期待你的回复！`;
       return (
         <a
           id={`btn-email-${product.id}`}

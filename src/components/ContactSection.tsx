@@ -6,7 +6,7 @@ interface ContactSectionProps {
 }
 
 export default function ContactSection({ onWechatClick }: ContactSectionProps) {
-  const mailtoUrl = `mailto:${profile.contact.email}?subject=探讨合作咨询&body=林风，你好：%0A%0A我看到了你的个人产品实验室网站。我目前正在面临以下问题，希望能够探讨合作或获取你的建议：%0A%0A1. 场景/痛点描述：%0A2. 期望目标：%0A3. 预算或时间规划：%0A%0A我的联系方式：`;
+  const mailtoUrl = `mailto:${profile.contact.email}?subject=探讨合作咨询&body=一人公司实践，你好：%0A%0A我看到了你的个人产品实验室网站。我目前正在面临以下问题，希望能够探讨合作或获取你的建议：%0A%0A1. 场景/痛点描述：%0A2. 期望目标：%0A3. 预算或时间规划：%0A%0A我的联系方式：`;
 
   return (
     <section id="contact" className="py-16 md:py-24 bg-[#eae8e1]/40 border-y border-border">
